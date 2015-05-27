@@ -17,4 +17,4 @@ function getSum(prices) {
     sum += tmp;
   }
   return sum;
-}
+};
