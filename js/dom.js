@@ -9,3 +9,10 @@ Hints for the first problem:
     - takes the value returned by the `sum` function and displays it on the page
 
 */
+var sumAll = document.getElementById("sum-all");
+sumAll.addEventListener("click", function() {
+  var prices = document.getElementsByTagName("option");
+  var sum = getSum(prices);
+  var div = document.getElementById("results");
+  div.innerHTML = sum;
+});
