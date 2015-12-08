@@ -7,6 +7,8 @@ There's a common pattern with iteration where you:
 * in each iteration, change the variable
 * return the variable
 
+This exercise will give you several chances to practice this pattern.
+
 ## Objectives
 
 To reinforce and practice the following:
@@ -19,8 +21,6 @@ To reinforce and practice the following:
 - separation of concerns
 - string concatenation
 - pivotal tracker, developer workflow
-
-This exercise will give you several chances to practice this pattern.
 
 ## Instructions
 
