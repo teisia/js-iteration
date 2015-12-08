@@ -68,15 +68,31 @@ Then, you should add the link to your deployed app to the activity area in the t
 and finally, hit the "deliver" button. Only then, should you "start" your next story,
 rinse and repeat.
 
-**Prices**
+PROCESS:
+
+* Estimate story points
+* "Start" story
+* add, commit, push when feature is complete
+* "Finish" story
+* Deploy to firebase
+* add deploy link to "Activity" for that story
+* "Deliver" the story
+* rinse and repeat
+
+## Exercise 1 - Prices
 
 Create a Tracker project called `js-iteration` and upload [this csv](https://s3.amazonaws.com/js-iteration-stories/js_iteration_20151207_2344.csv)
-to add stories
+to add stories.
 
-**Names**
+Begin working through each story, one at a time.
 
-Upload this [CSV of Stories](https://s3.amazonaws.com/js-iteration-stories/js_iteration_names_20151208_0001.csv)
-to your tracker project and begin working through them one at a time.
+## Exercise 2 - Names
+
+* Upload this [CSV of Stories](https://s3.amazonaws.com/js-iteration-stories/js_iteration_names_20151208_0001.csv)
+to your tracker project
+* Invite the instruction team to your Tracker project
+  * in `settings` click `Add/Remove Members`
+* Begin working through stories one at a time.
 
 As part of this exercise, you'll need to append multiple DOM elements.
 
@@ -102,3 +118,5 @@ Rewrite all functions in `js/logic.js` to use:
 - `forEach`
 - `map`
 - `reduce`
+
+Write tests for your pure functions
