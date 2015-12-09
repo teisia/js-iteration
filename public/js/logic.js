@@ -31,3 +31,9 @@ function getSelectedSum(prices) {
   }
   return total.toFixed(2);
 }
+
+function getSelectedAvg(prices) {
+  var count = getCount(prices) || 1;
+  var average = getSelectedSum(prices) / count;
+  return average.toFixed(2);
+}
