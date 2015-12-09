@@ -6,3 +6,8 @@ function sum(prices) {
 }
   return sum.toFixed(2);
 }
+
+function avg(prices) {
+  var average = sum(prices) / prices.length;
+  return average.toFixed(2);
+}
