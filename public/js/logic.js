@@ -21,3 +21,13 @@ function getCount(prices) {
   }
   return count;
 }
+
+function getSelectedSum(prices) {
+  var total = 0;
+  for (var i = 0; i < prices.length; i++) {
+    if (prices[i].selected) {
+      total += parseFloat(prices[i].value);
+    }
+  }
+  return total.toFixed(2);
+}
