@@ -36,3 +36,22 @@ function printLast() {
     }
   })
 }
+
+function printLength() {
+  $("#results").empty();
+  names.forEach(function(e, i) {
+    var nameList = e.split("\n");
+    var more = "";
+    for (var i = 0; i < nameList.length; i++) {
+      var split = nameList[i].split(" ");
+      var length = nameList[i].length;
+      if (split[2] === undefined) {
+        more = "";
+        $("#results").append("<li>" + split[0] + " " + split[1] + " - " + (length - 1) + "</li>" + "\n")
+      } else {
+        more = split[2];
+        $("#results").append("<li>" + split [0] + " " + split[1] + " " + more + " - " + (length - 2) + "</li>" + "\n")
+      }
+    }
+  })
+}

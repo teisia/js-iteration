@@ -15,3 +15,7 @@ first.addEventListener("click", function() {
 last.addEventListener("click", function() {
   printLast();
 })
+
+lengths.addEventListener("click", function() {
+  printLength();
+})
