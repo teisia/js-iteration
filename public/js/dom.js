@@ -1,4 +1,3 @@
-
 var sumAll = document.getElementById("sum-all");
 var avgAll = document.getElementById("average-all");
 var countSelected = document.getElementById("count-selected");
