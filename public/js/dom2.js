@@ -11,3 +11,7 @@ printAll.addEventListener("click", function() {
 first.addEventListener("click", function() {
   printFirst();
 })
+
+last.addEventListener("click", function() {
+  printLast();
+})
