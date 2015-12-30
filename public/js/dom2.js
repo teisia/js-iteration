@@ -5,5 +5,9 @@ var lengths = document.getElementById("names-with-lengths");
 var names = document.querySelector('.all-names').value.split('\n/');
 
 printAll.addEventListener("click", function() {
-  print();
+  printNames();
+})
+
+first.addEventListener("click", function() {
+  printFirst();
 })
