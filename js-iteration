@@ -1,9 +1,0 @@
-{
-  "firebase": "js-iteration-teisia",
-  "public": "public",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
